@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787057196132",
+    "firebase_url": "https://pcp-project-juris-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pcp-project-juris",
+    "storage_bucket": "pcp-project-juris.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787057196132:android:2e43967d5305178b9d7371",
+        "android_client_info": {
+          "package_name": "com.example.pcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787057196132-8910gj771sfcoufhbsmafekelbgio919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0pmdysSlvIxpaZ4VFFp8uRC-mmQM4bgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787057196132-8910gj771sfcoufhbsmafekelbgio919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
