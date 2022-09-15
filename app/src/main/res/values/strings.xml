@@ -2,8 +2,8 @@
     <string name="app_name">ProjectCommunication</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Register</string>
+    <string name="second_fragment_label">Groups</string>
     <string name="confirm">Confirm</string>
     <string name="previous">Previous</string>
 
@@ -22,4 +22,7 @@
         <item>Group 2</item>
         <item>Group 3</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="create_group_label">Group Name</string>
+    <string name="create_group_confirm">Create</string>
 </resources>

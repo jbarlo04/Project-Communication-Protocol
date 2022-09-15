@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.pcp.FirstFragment"
+        android:name="com.example.pcp.FirstLogin"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.pcp.SecondFragment"
+        android:name="com.example.pcp.ListGroups"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
@@ -25,4 +25,16 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/createGroup"
+        android:name="com.example.pcp.CreateGroup"
+        android:label="CreateGroup" >
+        <action
+            android:id="@+id/action_createGroup_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_createGroup"
+        app:destination="@id/createGroup"
+        app:popUpTo="@id/SecondFragment" />
 </navigation>

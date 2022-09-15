@@ -15,12 +15,9 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.pcp.databinding.FragmentFirstBinding;
 import com.example.pcp.dto.User;
 import com.example.pcp.helper.FirebaseHelper;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.pcp.states.UserState;
 
-import java.sql.SQLOutput;
-
-public class FirstFragment extends Fragment {
+public class FirstLogin extends Fragment {
 
     private FragmentFirstBinding binding;
 
@@ -30,29 +27,46 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-
-        final String PREFS_NAME = "MyPrefsFile";
-
-        SharedPreferences settings = getContext().getSharedPreferences(PREFS_NAME, 0);
-
-        if (!settings.getBoolean("my_first_time", true)) {
-            //the app is being launched for first time, do something
-            Log.d("Comments", "First time");
-            // first time task
-            NavHostFragment.findNavController(FirstFragment.this)
-                    .navigate(R.id.action_FirstFragment_to_SecondFragment);
-            // record the fact that the app has been started at least once
-            settings.edit().putBoolean("my_first_time", true).commit();
-        }
-
-        System.out.println("I'm clicking NEXT");
+        redirectIfUserExist();
 
         binding = FragmentFirstBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
+    
+
+
+
+    public boolean isFirstBoot() {
+        final String PREFS_NAME = "MyPrefsFile";
+
+        SharedPreferences settings = getContext().getSharedPreferences(PREFS_NAME, 0);
+
+        if (settings.getBoolean("my_first_time", true)) {
+            //the app is being launched for first time
+            settings.edit().putBoolean("my_first_time", false).commit();
+            return true;
+        }
+        return false;
+    }
+
+
+    public void redirectIfUserExist() {
+
+        if(!this.isFirstBoot()) {
+            Log.d("Comments", "Not first time");
+            // first time task
+            NavHostFragment.findNavController(FirstLogin.this)
+                    .navigate(R.id.action_FirstFragment_to_SecondFragment);
+        }
+    }
+
+
+
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
 
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,13 +78,15 @@ public class FirstFragment extends Fragment {
                 // get device id
                 String deviceId = android.provider.Settings.Secure.getString(getContext().getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
 
+                UserState.set(new User("no name", deviceId));
+
                 if (TextUtils.isEmpty(binding.editTextTextPersonName.getText())) {
                     android.widget.Toast.makeText(getContext(), "Name is required", android.widget.Toast.LENGTH_SHORT).show();
                     binding.editTextTextPersonName.setError("Name is required!");
 
                 } else {
                     FirebaseHelper.createUser(new User(name, deviceId));
-                    NavHostFragment.findNavController(FirstFragment.this)
+                    NavHostFragment.findNavController(FirstLogin.this)
                             .navigate(R.id.action_FirstFragment_to_SecondFragment);
 
                 }
