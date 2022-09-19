@@ -6,6 +6,7 @@ import com.google.firebase.database.IgnoreExtraProperties;
 public class User {
 
     public String name;
+    public String id;
     public String deviceId;
 
     public User() {

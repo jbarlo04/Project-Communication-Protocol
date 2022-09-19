@@ -148,6 +148,7 @@ public class FirebaseHelper {
 
                     for (DataSnapshot ds : task.getResult().getChildren()) {
                         Group group = ds.getValue(Group.class);
+                        assert group != null;
                         if (group.id.equals(groupId)) {
                             list.add(group);
                         }
@@ -160,4 +161,10 @@ public class FirebaseHelper {
         });
         return list.get(0);
     }
+
+    public static void updateUser(User user) {
+        usersRef.child(user.id).setValue(user);
+    }
+
+
 }

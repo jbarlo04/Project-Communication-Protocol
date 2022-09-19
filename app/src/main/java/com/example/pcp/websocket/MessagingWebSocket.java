@@ -11,6 +11,7 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import java.io.FileDescriptor;
 import java.net.URI;
 import java.nio.charset.Charset;
 
@@ -20,7 +21,9 @@ public class MessagingWebSocket extends Service {
     public static final String ACTION_NETWORK_STATE_CHANGED = "networkStateChanged";
 
     private static final String TAG = MessagingWebSocket.class.getSimpleName();
-    private static final String WS_URL = "ws://YOUR_IP:3000/ws/websocket";
+
+    // To work this needs to be connected to a local websocket server
+    private static final String WS_URL = "ws://127.0.0.1:3000/ws/websocket";
 
     private final IBinder mBinder = new WebSocketsBinder();
 
@@ -75,13 +78,18 @@ public class MessagingWebSocket extends Service {
         Log.i(TAG, "Websocket onError()");
     }
 
-    private Boolean startSocket() {
-        return true;
+    private IBinder startSocket() {
+        return this.mBinder;
     }
 
-    private Boolean stopSocket() {
+    private void stopSocket() {
 
-        return false;
+        this.mBinder.unlinkToDeath(new IBinder.DeathRecipient() {
+            @Override
+            public void binderDied() {
+                Log.i(TAG, "Websocket binderDied()");
+            }
+        }, 0);
     }
 
     private void sendMessageReceivedEvent() {
