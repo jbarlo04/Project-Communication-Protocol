@@ -45,12 +45,22 @@
                 android:text="NameGroup"
                 android:textAlignment="center"
                 android:textSize="24sp" />
+
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="439dp"
             android:layout_height="640dp"
             tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="INVITE"
+            tools:layout_editor_absoluteX="317dp"
             tools:layout_editor_absoluteY="66dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

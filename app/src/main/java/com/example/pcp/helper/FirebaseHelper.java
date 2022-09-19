@@ -113,4 +113,51 @@ public class FirebaseHelper {
     }
 
 
+    public static void addUserToGroup(String userId, String groupId) {
+
+        // update firebase group with new member
+        groupsRef = database.getReference(groups);
+        getGroupById(groupId, new GroupListCallback() {
+            @Override
+            public void onCallback(ArrayList<Group> list) {
+                Group group = list.get(0);
+                group.membersIds.add(userId);
+                groupsRef.child(groupId).setValue(group);
+            }
+        });
+
+
+    }
+
+    public static Group getGroupById(String groupId, GroupListCallback myCallback) {
+        // Get users from firebase
+        groupsRef = database.getReference(groups);
+        ArrayList<Group> list = new ArrayList<>();
+        // Get users from firebase
+        groupsRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    list.clear();
+
+                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
+
+                    for (DataSnapshot ds : task.getResult().getChildren()) {
+                        Group group = ds.getValue(Group.class);
+                        if (group.id.equals(groupId)) {
+                            list.add(group);
+                        }
+                        //Log.d("firebase-helper", "USER: " + user.name + " - deviceId: " + user.deviceId);
+                        // printUsers(list);
+                    }
+                    myCallback.onCallback(list);
+                }
+            };
+        });
+        return list.get(0);
+    }
 }

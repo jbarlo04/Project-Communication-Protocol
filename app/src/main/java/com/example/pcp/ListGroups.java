@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pcp.databinding.FragmentSecondBinding;
 import com.example.pcp.dto.Group;
+import com.example.pcp.dto.GroupListCallback;
 import com.example.pcp.dto.User;
 import com.example.pcp.dto.UserListCallback;
 import com.example.pcp.helper.FirebaseHelper;
@@ -48,6 +49,14 @@ public class ListGroups extends Fragment {
         });
 
         binding = FragmentSecondBinding.inflate(inflater, container, false);
+
+        FirebaseHelper.fetchGroups(new GroupListCallback() {
+            @Override
+            public void onCallback(ArrayList<Group> groups) {
+                Log.d("users", "Loaded " + groups.size() + " users");
+                groupsList = groups;
+            }
+        });
 
 
         groupsList = new ArrayList<>();

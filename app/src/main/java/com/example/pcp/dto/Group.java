@@ -8,6 +8,7 @@ import java.util.ArrayList;
 @IgnoreExtraProperties
 public class Group {
 
+    public String id;
     public String name;
     public String adminId;
     public ArrayList<String> membersIds;

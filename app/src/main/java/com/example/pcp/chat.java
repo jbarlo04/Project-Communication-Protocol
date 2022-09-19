@@ -8,6 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.pcp.dto.Group;
+import com.example.pcp.dto.User;
+import com.example.pcp.helper.FirebaseHelper;
+
+import java.util.ArrayList;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link chat#newInstance} factory method to
@@ -15,14 +21,10 @@ import android.view.ViewGroup;
  */
 public class chat extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    Group currentGroup = new Group();
+    ArrayList<User> users = new ArrayList<>();
+    private String groupId;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
     public chat() {
         // Required empty public constructor
@@ -40,8 +42,6 @@ public class chat extends Fragment {
     public static chat newInstance(String param1, String param2) {
         chat fragment = new chat();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -50,10 +50,21 @@ public class chat extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+
+    // creates a unique code that allows users to join the group
+    public String createUniqueCodeGroup() {
+        return currentGroup.id;
+    }
+
+
+    public void invitePeople(User user) {
+        FirebaseHelper.addUserToGroup(user.deviceId, this.groupId);
+    }
+
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
