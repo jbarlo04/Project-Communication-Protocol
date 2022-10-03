@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_chk.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_register_chk.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_cart_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_cart_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_menu_one.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\menu\\drawer_menu_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_send_chat.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\send_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audio_toggle_btn.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\audio_toggle_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_cater_order_menu_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_cater_order_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_menu_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_registration.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_userchatlist.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_userchatlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_remove_item.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\remove_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_view_order_menu.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_user_view_order_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_policy_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_baseline_policy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_menu_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_add_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cat_3.jpg.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\cat_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cart_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_userchatlist.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_userchatlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cat_4.jpg.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\cat_4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_order_list_user.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_order_list_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_remove_menu_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_remove_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_location_off_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\ic_baseline_location_off_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_enablelocationdialog.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\enablelocationdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_cater.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_cater.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_people_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_baseline_people_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shapeinput.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\shapeinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcorner.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\roundcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_dash.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_user_dash.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_video_toggle_btn.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\video_toggle_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_user_order_menu_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_user_order_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_order_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_user_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_usermessagescreen.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_usermessagescreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_carter_view_chat.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\carter_view_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_videocall_activity.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\videocall_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_rating.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_user_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img.jpeg.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\img.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_video_toggle_active_btn.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\video_toggle_active_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_registration.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_user_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_view_order_menu.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_view_order_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_about.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_smartphone_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_baseline_smartphone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cat_1.jpg.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\cat_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_my_location_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\ic_baseline_my_location_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_videocam_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\ic_baseline_videocam_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_dash.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_dash.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_chat_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_reviews_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_reviews_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_carter_rounded.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\carter_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tenor.gif.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\tenor.gif"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_menu.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_view_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_end_call.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cater_order_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_cater_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audio_toggle_active_btn.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\audio_toggle_active_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_view_chat.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\user_view_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_food_icon.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\food_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cat_2.jpg.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable-v24\\cat_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_join_call.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\join_call.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_order_list.xml.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\layout\\view_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_video_disabled.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\drawable\\video_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\princ\\Desktop\\Cater_Application\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]
