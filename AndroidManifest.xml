@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.food_hubs1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.Cater_Application">
+        <activity android:name="com.project.food_hubs1.UserViewOrderMenu"></activity>
+        <activity android:name="com.project.food_hubs1.CaterViewOrderMenu" />
+        <activity android:name="com.project.food_hubs1.videocall.VideoCallActivity"
+            android:exported="true">
+
+        </activity>
+        <activity android:name="com.project.food_hubs1.chat.ChatUserList" />
+        <activity android:name="com.project.food_hubs1.CartList" />
+        <activity android:name="com.project.food_hubs1.ViewMenu" />
+        <activity android:name="com.project.food_hubs1.CaterList" />
+        <activity android:name="com.project.food_hubs1.UserMessagesList" />
+        <activity android:name="com.project.food_hubs1.UserRating" />
+        <activity android:name="com.project.food_hubs1.UserOrderList" />
+        <activity android:name="com.project.food_hubs1.CaterChatList" />
+        <activity android:name="com.project.food_hubs1.CaterReviewsList" />
+        <activity android:name="com.project.food_hubs1.RemoveMenuList" />
+        <activity android:name="com.project.food_hubs1.AddMenuList" />
+        <activity android:name="com.project.food_hubs1.CaterOrderList" />
+        <activity android:name="com.project.food_hubs1.UserDash" />
+        <activity android:name="com.project.food_hubs1.CaterDash" />
+        <activity android:name="com.project.food_hubs1.CaterRegistration" />
+        <activity android:name="com.project.food_hubs1.UserRegistration" />
+        <activity android:name="com.project.food_hubs1.Register_chk" />
+        <activity
+            android:name="com.project.food_hubs1.MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="com.project.food_hubs1.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
