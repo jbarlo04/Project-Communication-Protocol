@@ -1,0 +1,314 @@
+<resources>
+    <string name="app_name">Food Hub</string>
+    <string name="agora_app_id">f63e4e2977cd42c49a795b6cd7514227</string>
+
+    <string-array name="Age">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotpassword">Forgot Password ?</string>
+    <string name="newuser">New User ?</string>
+    <string name="createaccount">Create Account</string>
+    <string name="name">Name</string>
+    <string name="phonenumber">Phone</string>
+    <string name="confirmpasswd">Confirm Password</string>
+    <string name="termsandcondi"> I accept terms &amp; conditions</string>
+    <string name="haveanaccount">Have an account ?</string>
+    <string name="signin">Sign in</string>
+    <string name="title_activity_bottom_navigation">dff</string>
+    <string name="facebook_app_id">592310924831241</string>
+    <string name="fb_login_protocol_scheme">fb592310924831241</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_send">Send</string>
+    <string name="action_settings">settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">notifications</string>
+    <string name="pick_image_intent_text">Pick Image</string>
+    <string name="permission_message">Permission Denied</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_nearby">Near by Place</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_parking">Parking</string>
+    <string name="menu_chat">Chat/Inbox</string>
+    <string name="menu_history">History</string>
+    <string name="menu_logout">Logout</string>
+    <string name="notification">Notification</string>
+    <string name="close">Close</string>
+    <string name="dummy_text">Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text  Loreum lipsum is a dummy text vLoreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text
+        Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy text Loreum lipsum is a dummy textLoreum lipsum is a dummy textv </string>
+    <string name="helptext"><u><b>Disclaimer:</b></u> Please let us know if you are experiencing distances off by 200 feet or more consistently. Due to factors such as connectivity, satellite positioning, and business location pins, you may experience locations that may not be exact. Make sure you use reliable connectivity whenever possible, and try remediation options whenever possible. For a list of possible remediation options please see below:
+        \n \n -Enable airplane mode for 1 minute then toggle off to see if connectivity returns.
+        \n \n -Uninstall/reinstall the application
+        \n \n -Log out of application, close application, then log back in
+        \n \n -Try using wifi to confirm the issue does not reside with your phones connectivity
+
+        \n \n -If these steps do not resolve your issue contact us about possible bug and include any error message/code you may see as well as screen shots that may aid in trouble shooting</string>
+    <string name="message_failed">Message Failed</string>
+    <string name="message_sending">Sending</string>
+
+    <string-array name="array_name">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+    <string name="group_channel_list_file_message_text">%1$s has uploaded a file.</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="bars">Bars</string>
+    <string name="hospital">Hospital</string>
+    <string name="coffee">Coffee</string>
+    <string name="hotels">Hotels</string>
+    <string name="type_here">Type here..</string>
+    <string name="search">Search...</string>
+    <string name="phone_214_0_54536060">Phone : (+214)0 54536060</string>
+    <string name="text_address">Address : El Gajala Cyber park-Zarzis</string>
+    <string name="email">Email</string>
+    <string name="type_a_message_here">Type a message here...</string>
+    <string name="submit">Submit</string>
+    <string name="text_email">Email : support@crowdsurfur.com</string>
+    <string name="mobile">Mobile</string>
+    <string name="location">Location</string>
+    <string name="edit">Edit</string>
+    <string name="disclaimer">Disclaimer:</string>
+    <string name="feedback_text">Please let us know if you are experiencing distances off by 200 feet or more consistently. Due to factors such as connectivity, satellite positioning, and business location pins, you may experience locations that may not be exact. Make sure you use reliable connectivity whenever possible, and try remediation options whenever possible. For a list of possible remediation options please see below:</string>
+    <string name="text_enable_airplane">•\tEnable airplane mode for 1 minute then toggle off to see if connectivity returns.</string>
+    <string name="uninstall_reinstall_the_application">• Uninstall/reinstall the application</string>
+    <string name="text_logout">•\tLog out of application, close application, then log back in.</string>
+    <string name="text_using_wifi">•\tTry using wifi to confirm the issue does not reside with your phones connectivity.</string>
+    <string name="text_these_steps">If these steps do not resolve your issue contact us about possible bug and include any error message/code you may see as well as screen shots that may aid in trouble shooting. Additionally, if multiple users are in or around same location, you can “click” on icon to switch between them.</string>
+    <string name="tutorial_screens">tutorial screens</string>
+    <string name="text_united_states">ohio-38051 United States 122313456</string>
+    <string name="end_tracking">End Tracking</string>
+    <string name="image">image</string>
+    <string name="sign_in">Sign In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="new_group_name_here">New Group Name Here</string>
+    <string name="text_click_camera">click camera icon to add an icon to the group</string>
+    <string name="particpants_0">Particpants 0</string>
+    <string name="ring_leader">Ring Leader</string>
+    <string name="billy_bills">Billy bills</string>
+    <string name="text_would_you_like_track">Would you like to let john track your location</string>
+    <string name="allow">Allow</string>
+    <string name="decline">Decline</string>
+    <string name="subscription">Subscription</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="help">Help</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="change_language">Change Language</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="abduallaa">Abduallaa</string>
+    <string name="buccan_restaurants">Buccan Restaurants</string>
+    <string name="address_columbus">#361 street, Coloumbus   Ohio #30051, United States 1324564</string>
+    <string name="_2min">2min</string>
+    <string name="john_person_want_to">John person want to</string>
+    <string name="_100">100</string>
+    <string name="invite">+ Invite</string>
+    <string name="time_00_00">Time:00:00</string>
+    <string name="john_person_want_to_know_your_current_location">John person want to know your current location</string>
+    <string name="_0">0</string>
+    <string name="_12_10_am">12:10 Am</string>
+    <string name="hello">Hello World!</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="please_enter_register_email">Please enter your registered email address to receive the password reset instructions.</string>
+    <string name="send">Send</string>
+    <string name="rahul">Rahul</string>
+    <string name="history">History</string>
+    <string name="near_by_places">Near by Places</string>
+    <string name="navvisitwebsite">Visit Website</string>
+    <string name="share_location">Share Location</string>
+    <string name="friends">Friends</string>
+    <string name="parking">Parking</string>
+    <string name="share_app">Share App</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="free">Free</string>
+    <string name="free_trail_available">30 day trial with all features available</string>
+    <string name="you_can_save_10_locations">You can save 10 locations.</string>
+    <string name="you_can_create_ring_leader">You can create ring leader.</string>
+    <string name="you_can_make_friends">You can make friends.</string>
+    <string name="you_can_chat_with_friends">You can chat with friends.</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="_0_99_n_per_month">$ 0.99/\nper month</string>
+    <string name="per_year">$ 9.99/\nper year</string>
+    <string name="you_can_save_05_locations">You can save 05 locations.</string>
+    <string name="visitwebsite">Scan this QR code to \nvisit website.</string>
+    <string name="makeyourappaddfree">Make your app add-free.</string>
+    <string name="tap_to_find_n_catlina">Tap to find   Catlina</string>
+    <string name="gg">gg</string>
+    <string name="welcome_text">Welcome to crowdsurfur, dont forget to rate us and let us know if you have any questions.</string>
+    <string name="i_am_fine_fine">I am fine fine</string>
+    <string name="i_am_fine_thank_you">I am fine thank you</string>
+    <string name="your_current_location">Your current location</string>
+    <string name="_361_columbus_nohio_380051">#361 columbus,  ohio-380051</string>
+    <string name="ok">ok</string>
+    <string name="do_you_want_to_save_parking_on">Do you want to save parking on</string>
+    <string name="save_your_location_as">Save your location as</string>
+    <string name="car">Car</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="bike">Bike</string>
+    <string name="boat">Boat</string>
+    <string name="other">Other</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="find_location">Find Location</string>
+    <string name="by_a_map">By Map</string>
+    <string name="by_a_vibration">By Vibration</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="button">Button</string>
+    <string name="you_can_share_location_text">You can share  your location  with other users through toggle button</string>
+    <string name="are_you_sure_tologout">Are you sure to logout?</string>
+    <string name="total_number_of_users">"Total number of users on map "</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_history">History</string>
+    <string name="title_nearby">Near by Place</string>
+    <string name="end_tracking1">Please confirm that you would no longer like to be available for tracking?</string>
+    <string name="end_tracking2">Please confirm if you want to end session for other persons who tracking you?</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_settings">Settings</string>
+    <string name="delete_from_history">Please confirm to delete this place from history!</string>
+    <string name="delete_from_parking">Please confirm to delete this place from history!</string>
+    <string name="delete_from_notification">Are you sure to remove this notification?</string>
+    <string name="camera_default">Default</string>
+    <string name="capture_image_from_camera">Capture Image from camera</string>
+    <string name="select_image_from_gallery">Select Image from Gallery</string>
+    <string name="trackedplaces">Tracked Places</string>
+    <string name="listview">List View</string>
+    <string name="mapview">Map View</string>
+    <string name="title_newgroup">New Group</string>
+    <string name="participants">Particapants </string>
+    <string name="title_privacypolicy">Privacy Policy</string>
+    <string name="title_help">Help</string>
+    <string name="title_contactus">Contact Us</string>
+    <string name="title_subscription">Subscription</string>
+    <string name="title_termsandconditon"><![CDATA[Terms & Conditions]]></string>
+    <string name="title_register">Register</string>
+    <string name="restart_string">Click ok to restart crowdsurfur so that language changes takes affect</string>
+    <string name="validation_enter_name">Please enter name </string>
+    <string name="validation_email">Please enter your email address</string>
+    <string name="validation_valid_email">Please enter a valid email address</string>
+    <string name="validation_entermsg">Please enter message </string>
+    <string name="validation_groupname">Please enter group name</string>
+    <string name="validation_nogroupmember">No group member found</string>
+    <string name="validation_selecttwomember">Please select two members to create group</string>
+    <string name="validation_phone">Please enter phonenumber</string>
+    <string name="validation_enterlocation">Please enter location</string>
+    <string name="validation_enterpassword">Please enter password</string>
+    <string name="validation_valid_phonenumber">Please enter a valid phone number</string>
+    <string name="validation_termsandcondition">Please accept terms and conditions!!</string>
+    <string name="vakudation_6digitpass">Please enter more than 6 digits password </string>
+    <string name="validation_confirmpass">Please enter confirm password</string>
+    <string name="validation_passnotmatched">Password doesn\'t match</string>
+    <string name="validation_accept_termscondition">Please accept terms and conditions!!</string>
+    <string name="paid">Paid</string>
+    <string name="title_contact">Contacts</string>
+    <string name="needatleasttwousers">You need at least two users to make a group.</string>
+    <string name="selectatleasttwousers">Please select at least two contacts to make group.</string>
+    <string name="suretoremove">Are you sure to remove</string>
+    <string name="fromthisgroup">from this group</string>
+    <string name="taptofind">Tap to find</string>
+    <string name="profile">Profile</string>
+    <string name="isalreadytrackingyou">is already tracking you</string>
+    <string name="endtrackingstring">Please end your tracking to start tracking again</string>
+    <string name="youhaverechedlocation">you have reached location...</string>
+    <string name="pleaseconfirmifyouwanttoendtrackingsession">Please confirm if you want to end current tracking session?</string>
+    <string name="loading">Loading ...</string>
+    <string name="areyousuretoremove">Are you sure to remove</string>
+    <string name="fromyourgrouplist">from your group list?</string>
+    <string name="requestalreadysent">Request already sent</string>
+    <string name="alreadyinfriendlist">Already in friend list</string>
+    <string name="requestdeclinedbyuser">Request is declined by the user</string>
+    <string name="pleaseselectatleastoneoption">Please select atleast one option</string>
+    <string name="selectimage">Select Image</string>
+    <string name="noroutfound">Sorry!! No route found</string>
+    <string name="personturnedofflocatoin">has turned off his location. please click Ok to stop tracking</string>
+    <string name="wait_msg">Please wait...</string>
+    <string name="chatclearedmsg">Chat Cleared Successfully</string>
+    <string name="msgdeletedmsg">Message Deleted Successfully...</string>
+    <string name="delmsg">Deleting message...</string>
+    <string name="nowyoucannotchatwith">"You can no longer chat with "</string>
+    <string name="asitisremovedfromyourfriendlist">", they are no longer in your friends list."</string>
+    <string name="areyoursuretounfriend">Are you sure to unfriend</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="taptoopen">Running. Tap to open.</string>
+    <string name="nosubscription">You didn\'t subscribe any plan</string>
+    <string name="subscribedtomonthlyplan">You have subscribed to monthly plan</string>
+    <string name="startdate">Start Date:</string>
+    <string name="endate">End Date:</string>
+    <string name="subscribetoyearlyplan">You have subscribed to yearly plan</string>
+    <string name="get_permission">Turn on</string>
+    <string name="not_now">Not now</string>
+    <string name="locationpermission">To find nearby restaurants, hopitals, hotels, Parked car location etc.</string>
+    <string name="contactpermission">Crowdsurfur uses your contact list to connect you with users of the app. This allows you to create groups, track each other, or even chat with them over secure messaging.</string>
+    <string name="crowdsurfur_use_your_location">Crowdsurfur use your location</string>
+    <string name="backgroundpermissionstring">Crowdsurfur uses your location in background to show distance(Feet) to reach your parking location or to find nearby friend.</string>
+    <string name="atm">Atm</string>
+    <string name="bookstore">Book Store</string>
+    <string name="bus_station">Bus Station</string>
+    <string name="gym">Gym</string>
+    <string name="night_club">Night Club</string>
+    <string name="lodging">Lodging</string>
+    <string name="school">School</string>
+    <string name="university">University</string>
+    <string name="bank">Bank</string>
+    <string name="campground">Campground</string>
+    <string name="car_repair">Car Repair</string>
+    <string name="church">Church</string>
+    <string name="casino">Casino</string>
+    <string name="doctor">Doctor</string>
+
+    <string name="gas_station">Gas Station</string>
+    <string name="hair_care">Hair Care</string>
+    <string name="liquor_store">Liquor Store</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="police">Police</string>
+    <string name="park">Park</string>
+    <string name="subwaystation">Subway Station</string>
+    <string name="spa">Spa</string>
+    <string name="taxi">Taxi</string>
+    <string name="tourist">Tourist</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="nonearbyplaces">No near by places found.</string>
+    <string name="embassy">Embassy</string>
+    <string name="departmentalstore">Department Store</string>
+    <string name="drugstore">Drugstore</string>
+    <string name="transit_station">Transit Station</string>
+    <string name="movie_theatre">Movie Theater</string>
+    <string name="laundry">Laundry</string>
+    <string name="convenience_store">Convenience Store</string>
+    <string name="mosque">Mosque</string>
+    <string name="museum">Museum</string>
+    <string name="veterniary">Veterinary Care</string>
+    <string name="zoo">Zoo</string>
+</resources>
+

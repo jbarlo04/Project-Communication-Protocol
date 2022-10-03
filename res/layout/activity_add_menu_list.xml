@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F7FFFFFF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/addmenu_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        app:subtitleTextColor="#0A0A0A"
+        app:title="Add Menu"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/white"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="ENTER YOUR PRODUCTS"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:text="Item Title"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:text="Item Price"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:text="Item Description"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/item_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/food_icon"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/btnItem_enter"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Enter Item"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+
+    </LinearLayout>

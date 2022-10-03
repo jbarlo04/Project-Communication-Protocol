@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout2"
+    android:fitsSystemWindows="true"
+
+    android:background="@color/backgroundColor"
+    android:minWidth="19dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F7FFFFFF"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cart Item List"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/button"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="561dp"
+                android:layout_margin="15dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleViewCartlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="602dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnplaceOrder"
+                android:layout_width="150dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Place" />
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu_one">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

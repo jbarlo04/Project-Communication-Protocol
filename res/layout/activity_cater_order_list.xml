@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout6"
+    android:fitsSystemWindows="true"
+    android:background="@color/backgroundColor"
+    android:minWidth="19dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F7FFFFFF"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/orderlisttoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                app:subtitleTextColor="#0A0A0A"
+                app:title="orders"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:navigationIconTint="@color/white"
+                app:titleCentered="true"
+                app:titleTextColor="@color/white" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Orders"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/button"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"/>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleViewOrder"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu_one">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

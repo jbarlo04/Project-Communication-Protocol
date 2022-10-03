@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/Userhome"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home">
+        </item>
+        <item android:id="@+id/cater_list"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="CaterList">
+        </item>
+        <item android:id="@+id/orderList"
+            android:icon="@drawable/ic_baseline_smartphone_24"
+            android:title="Order List">
+        </item>
+        <item android:id="@+id/delivered_orderList"
+            android:icon="@drawable/ic_baseline_smartphone_24"
+            android:title="Delivered Order">
+        </item>
+
+        </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <!--<item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share">
+        </item>-->
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="Logout">
+        </item>
+    </group>
+
+</menu>
